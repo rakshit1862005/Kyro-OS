@@ -101,6 +101,43 @@ Window {
                     font.pixelSize: 18
                 }
             }
+            Item {
+                            Layout.fillWidth: true
+                        }
+
+                        // Time and Date Display
+                        ColumnLayout {
+                            Layout.rightMargin: 20
+                            spacing: 5
+
+                            Text {
+                                id: timeText
+                                Layout.alignment: Qt.AlignRight
+                                text: Qt.formatTime(new Date(), "hh:mm AP")
+                                color: "white"
+                                font.pixelSize: 32
+                                font.bold: false
+                            }
+
+                            Text {
+                                id: dateText
+                                Layout.alignment: Qt.AlignRight
+                                text: Qt.formatDate(new Date(), "dddd, MMMM d, yyyy")
+                                color: "#db5a63"
+                                font.pixelSize: 16
+                            }
+
+                            Timer {
+                                interval: 1000
+                                running: true
+                                repeat: true
+                                onTriggered: {
+                                    var currentDate = new Date()
+                                    timeText.text = Qt.formatTime(currentDate, "hh:mm AP")
+                                    dateText.text = Qt.formatDate(currentDate, "dddd, MMMM d, yyyy")
+                                }
+                            }
+                        }
         }
 
         // Main Tiles
@@ -144,7 +181,7 @@ Window {
                     text: "Main Tile " + (index + 1)
                     font.pixelSize: 24
                     color: "white"
-                    font.bold: true
+                    font.bold: false
                 }
             }
         }
@@ -189,7 +226,7 @@ Window {
                     text: "Tile " + (index + 1)
                     font.pixelSize: 20
                     color: "white"
-                    font.bold: true
+                    font.bold: false
                 }
             }
         }
@@ -252,7 +289,7 @@ Window {
                                 text: (index + 1)
                                 font.pixelSize: 20
                                 color: "white"
-                                font.bold: true
+                                font.bold: false
                             }
                         }
 
@@ -261,7 +298,7 @@ Window {
                             text: "App " + (index + 1)
                             font.pixelSize: 14
                             color: (focusedGrid === 2 && bottomTile.currentIndex === index) ? "#db5a63" : "#2c5364"
-                            font.bold: true
+                            font.bold: false
                         }
                     }
                 }
