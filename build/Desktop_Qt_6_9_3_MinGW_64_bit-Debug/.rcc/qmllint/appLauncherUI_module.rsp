@@ -1,0 +1,12 @@
+-I
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.9.3/mingw_64/qml
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qmake_LauncherUI.qrc
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0.qrc
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/resource.qrc
+--module
+LauncherUI

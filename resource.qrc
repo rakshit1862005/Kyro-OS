@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icon"/>
+    <qresource prefix="/">
+        <file>images/launcher_wp.jpg</file>
+    </qresource>
+</RCC>

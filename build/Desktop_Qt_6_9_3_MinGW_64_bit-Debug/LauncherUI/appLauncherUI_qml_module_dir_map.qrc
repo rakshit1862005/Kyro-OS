@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/LauncherUI">A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/LauncherUI</file>
+
+  </qresource>
+</RCC>

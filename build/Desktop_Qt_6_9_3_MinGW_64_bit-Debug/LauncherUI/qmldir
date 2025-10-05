@@ -1,0 +1,6 @@
+module LauncherUI
+typeinfo appLauncherUI.qmltypes
+prefer :/qt/qml/LauncherUI/
+Main 1.0 Main.qml
+depends QtQuick
+

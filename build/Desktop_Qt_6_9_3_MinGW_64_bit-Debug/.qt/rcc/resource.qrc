@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/images">
+    <file alias="images/launcher_wp.jpg">A:/KyroOS/LauncherUI/images/launcher_wp.jpg</file>
+  </qresource>
+</RCC>
+
