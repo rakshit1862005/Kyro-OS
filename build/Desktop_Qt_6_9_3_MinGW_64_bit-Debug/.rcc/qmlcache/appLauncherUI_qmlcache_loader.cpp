@@ -12,6 +12,48 @@ namespace _qt_qml_LauncherUI_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_LauncherUI_sounds_StartupOverlay_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_LauncherUI_sounds_StartupAnim_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_LauncherUI_sounds_BackgroundAnim_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_LauncherUI_sounds_WifiTab_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_LauncherUI_sounds_Customize_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_LauncherUI_sounds_Wifidetail_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +69,12 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/StartupOverlay.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_StartupOverlay_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/StartupAnim.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_StartupAnim_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/BackgroundAnim.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_BackgroundAnim_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/WifiTab.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_WifiTab_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/Customize.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_Customize_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/LauncherUI/sounds/Wifidetail.qml"), &QmlCacheGeneratedCode::_qt_qml_LauncherUI_sounds_Wifidetail_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

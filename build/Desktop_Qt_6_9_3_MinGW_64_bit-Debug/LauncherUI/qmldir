@@ -2,5 +2,11 @@ module LauncherUI
 typeinfo appLauncherUI.qmltypes
 prefer :/qt/qml/LauncherUI/
 Main 1.0 Main.qml
+StartupOverlay 1.0 sounds/StartupOverlay.qml
+StartupAnim 1.0 sounds/StartupAnim.qml
+BackgroundAnim 1.0 sounds/BackgroundAnim.qml
+WifiTab 1.0 sounds/WifiTab.qml
+Customize 1.0 sounds/Customize.qml
+Wifidetail 1.0 sounds/Wifidetail.qml
 depends QtQuick
 

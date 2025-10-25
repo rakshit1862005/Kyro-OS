@@ -1,6 +1,6 @@
 <RCC>
-  <qresource prefix="/images">
-    <file alias="images/launcher_wp.jpg">A:/KyroOS/LauncherUI/images/launcher_wp.jpg</file>
+  <qresource prefix="/sounds">
+    <file alias="sounds/pulse.wav">A:/KyroOS/LauncherUI/sounds/pulse.wav</file>
   </qresource>
 </RCC>
 

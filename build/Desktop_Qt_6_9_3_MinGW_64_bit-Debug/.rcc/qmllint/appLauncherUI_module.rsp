@@ -7,6 +7,8 @@ A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qmake_Lau
 --resource
 A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0.qrc
 --resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0_extra_qmldirs.qrc
+--resource
 A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/resource.qrc
 --module
 LauncherUI

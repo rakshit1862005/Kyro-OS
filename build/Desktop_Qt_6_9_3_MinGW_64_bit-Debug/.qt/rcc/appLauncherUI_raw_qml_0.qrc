@@ -1,6 +1,12 @@
 <RCC>
   <qresource prefix="/qt/qml/LauncherUI/">
     <file alias="Main.qml">A:/KyroOS/LauncherUI/Main.qml</file>
+    <file alias="sounds/StartupOverlay.qml">A:/KyroOS/LauncherUI/sounds/StartupOverlay.qml</file>
+    <file alias="sounds/StartupAnim.qml">A:/KyroOS/LauncherUI/sounds/StartupAnim.qml</file>
+    <file alias="sounds/BackgroundAnim.qml">A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml</file>
+    <file alias="sounds/WifiTab.qml">A:/KyroOS/LauncherUI/sounds/WifiTab.qml</file>
+    <file alias="sounds/Customize.qml">A:/KyroOS/LauncherUI/sounds/Customize.qml</file>
+    <file alias="sounds/Wifidetail.qml">A:/KyroOS/LauncherUI/sounds/Wifidetail.qml</file>
     <file alias="resource.qrc">A:/KyroOS/LauncherUI/resource.qrc</file>
   </qresource>
 </RCC>

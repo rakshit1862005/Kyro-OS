@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/LauncherUI/">
+    <file alias="sounds/qmldir">A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/LauncherUI/sounds/qmldir</file>
+  </qresource>
+</RCC>
+

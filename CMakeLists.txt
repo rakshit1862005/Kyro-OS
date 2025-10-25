@@ -4,8 +4,8 @@ project(LauncherUI VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick QuickEffects)
-
+# 👇 Add Multimedia here
+find_package(Qt6 REQUIRED COMPONENTS Quick QuickEffects Multimedia)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -20,26 +20,31 @@ qt_add_qml_module(appLauncherUI
         Main.qml
     RESOURCES
         resource.qrc
-)
-qt_add_resources(appLauncherUI "resource"
-    PREFIX "/images"
-    FILES "images/launcher_wp.jpg"
+        QML_FILES
+        QML_FILES sounds/StartupOverlay.qml
+        QML_FILES sounds/StartupAnim.qml
+        QML_FILES sounds/BackgroundAnim.qml
+        QML_FILES sounds/WifiTab.qml
+        QML_FILES sounds/Customize.qml
+        SOURCES
+        SOURCES
+        SOURCES
+        QML_FILES sounds/Wifidetail.qml
 )
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
+qt_add_resources(appLauncherUI "resource"
+    PREFIX "/sounds"
+    FILES "sounds/pulse.wav"
+)
+
 set_target_properties(appLauncherUI PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appLauncherUI
-    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
-    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
 
+# 👇 Link Multimedia here too
 target_link_libraries(appLauncherUI
-    PRIVATE Qt6::Quick Qt6::QuickEffects
-
+    PRIVATE Qt6::Quick Qt6::QuickEffects Qt6::Multimedia
 )
 
 include(GNUInstallDirs)
