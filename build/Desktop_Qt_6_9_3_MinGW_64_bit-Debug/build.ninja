@@ -447,7 +447,7 @@ build .rcc/qmlcache/appLauncherUI_sounds/Wifidetail_qml.cpp .rcc/qmlcache/appLau
 #############################################
 # Custom command for .qt\rcc\qrc_appLauncherUI_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appLauncherUI_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appLauncherUI_raw_qml_0.cpp: CUSTOM_COMMAND A$:/KyroOS/LauncherUI/Main.qml A$:/KyroOS/LauncherUI/sounds/StartupOverlay.qml A$:/KyroOS/LauncherUI/sounds/StartupAnim.qml A$:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml A$:/KyroOS/LauncherUI/sounds/WifiTab.qml A$:/KyroOS/LauncherUI/sounds/Customize.qml A$:/KyroOS/LauncherUI/sounds/Wifidetail.qml A$:/KyroOS/LauncherUI/resource.qrc .qt/rcc/appLauncherUI_raw_qml_0.qrc C$:/Qt/6.9.3/mingw_64/bin/rcc.exe || appLauncherUI_autogen appLauncherUI_autogen_timestamp_deps appLauncherUI_copy_qml appLauncherUI_copy_res appLauncherUI_qmlimportscan
+build .qt/rcc/qrc_appLauncherUI_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appLauncherUI_raw_qml_0.cpp: CUSTOM_COMMAND A$:/KyroOS/LauncherUI/Main.qml A$:/KyroOS/LauncherUI/sounds/StartupOverlay.qml A$:/KyroOS/LauncherUI/sounds/StartupAnim.qml A$:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml A$:/KyroOS/LauncherUI/sounds/WifiTab.qml A$:/KyroOS/LauncherUI/sounds/Customize.qml A$:/KyroOS/LauncherUI/sounds/Wifidetail.qml A$:/KyroOS/LauncherUI/resource.qrc A$:/KyroOS/LauncherUI/images/main1.png A$:/KyroOS/LauncherUI/images/main2.png A$:/KyroOS/LauncherUI/images/main3.png .qt/rcc/appLauncherUI_raw_qml_0.qrc C$:/Qt/6.9.3/mingw_64/bin/rcc.exe || appLauncherUI_autogen appLauncherUI_autogen_timestamp_deps appLauncherUI_copy_qml appLauncherUI_copy_res appLauncherUI_qmlimportscan
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D A:\KyroOS\LauncherUI\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && C:\Qt\6.9.3\mingw_64\bin\rcc.exe --output A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appLauncherUI_raw_qml_0.cpp --name appLauncherUI_raw_qml_0 A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appLauncherUI_raw_qml_0
   restat = 1
@@ -542,7 +542,7 @@ build CMakeFiles/appLauncherUI_copy_res | ${cmake_ninja_workdir}CMakeFiles/appLa
 #############################################
 # Custom command for .qt\appLauncherUI_res.txt
 
-build .qt/appLauncherUI_res.txt | ${cmake_ninja_workdir}.qt/appLauncherUI_res.txt: CUSTOM_COMMAND C$:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake A$:/KyroOS/LauncherUI/resource.qrc
+build .qt/appLauncherUI_res.txt | ${cmake_ninja_workdir}.qt/appLauncherUI_res.txt: CUSTOM_COMMAND C$:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake A$:/KyroOS/LauncherUI/resource.qrc A$:/KyroOS/LauncherUI/images/main1.png A$:/KyroOS/LauncherUI/images/main2.png A$:/KyroOS/LauncherUI/images/main3.png
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D A:\KyroOS\LauncherUI\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/appLauncherUI_res.cmake -P C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appLauncherUI qml resources into build dir
   restat = 1

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 12,
-                        "durationMicroseconds": 768,
+                        "durationMicroseconds": 506,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 14
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 14,
-                        "durationMicroseconds": 455,
+                        "durationMicroseconds": 213,
                         "errorMessage": "Cannot access value for name activePanel",
                         "functionName": "visible",
                         "line": 15
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "focus",
                         "line": 22
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 503,
+                        "durationMicroseconds": 342,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "onVisibleChanged",
                         "line": 49
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 197,
+                        "durationMicroseconds": 158,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 10
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 11
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 133,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 12
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 4199,
+                        "durationMicroseconds": 2334,
                         "errorMessage": "Cannot access value for name event",
                         "functionName": "onPressed",
                         "line": 24
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 57
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 336,
+                        "durationMicroseconds": 236,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
                         "line": 77
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 16,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "text",
                         "line": 81
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 42,
-                        "durationMicroseconds": 384,
+                        "durationMicroseconds": 284,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 83
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 40,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 220,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 84
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 687,
+                        "durationMicroseconds": 467,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 93
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 294,
+                        "durationMicroseconds": 214,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 113
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 1102,
+                        "durationMicroseconds": 654,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "model",
                         "line": 115
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 922,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "currentIndex",
                         "line": 116
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 204,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 120
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 780,
+                        "durationMicroseconds": 375,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "color",
                         "line": 123
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 786,
+                        "durationMicroseconds": 308,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "width",
                         "line": 132
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 1269,
+                        "durationMicroseconds": 567,
                         "errorMessage": "Cannot access value for name customizationPanel",
                         "functionName": "color",
                         "line": 141
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 71,
-                        "durationMicroseconds": 160,
+                        "durationMicroseconds": 144,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 156
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 391,
+                        "durationMicroseconds": 284,
                         "errorMessage": "Cannot access value for name customizationPanel",
                         "functionName": "onEntered",
                         "line": 174
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 1017,
+                        "durationMicroseconds": 653,
                         "errorMessage": "Cannot access value for name customizationPanel",
                         "functionName": "onClicked",
                         "line": 177
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 116,
+                        "durationMicroseconds": 134,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 172
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 184
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 70,
-                        "durationMicroseconds": 197,
+                        "durationMicroseconds": 113,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 196
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 70,
-                        "durationMicroseconds": 146,
+                        "durationMicroseconds": 71,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 197
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 70,
-                        "durationMicroseconds": 141,
+                        "durationMicroseconds": 68,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 198
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 40,
-                        "durationMicroseconds": 771,
+                        "durationMicroseconds": 286,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 206
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 51,
-                        "durationMicroseconds": 112,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 202
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 840,
+                        "durationMicroseconds": 424,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "text",
                         "line": 215
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 44,
-                        "durationMicroseconds": 524,
+                        "durationMicroseconds": 308,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 228
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 51,
-                        "durationMicroseconds": 306,
+                        "durationMicroseconds": 271,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 230
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 44,
-                        "durationMicroseconds": 385,
+                        "durationMicroseconds": 305,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 237
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 51,
-                        "durationMicroseconds": 278,
+                        "durationMicroseconds": 229,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 239
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 44,
-                        "durationMicroseconds": 403,
+                        "durationMicroseconds": 264,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 246
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 51,
-                        "durationMicroseconds": 453,
+                        "durationMicroseconds": 169,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 248
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 42,
-                        "durationMicroseconds": 1014,
+                        "durationMicroseconds": 526,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "visible",
                         "line": 253
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 40,
-                        "durationMicroseconds": 816,
+                        "durationMicroseconds": 482,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 256
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 888,
+                        "durationMicroseconds": 489,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "text",
                         "line": 262
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 1693,
+                        "durationMicroseconds": 1010,
                         "errorMessage": "Cannot access value for name selectedThemeIndex",
                         "functionName": "color",
                         "line": 264
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 478,
+                        "durationMicroseconds": 277,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 276
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 277
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 278
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 349,
+                        "durationMicroseconds": 203,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 285
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 286

@@ -18,137 +18,150 @@ Rectangle {
         PropertyAnimation { duration: 800; easing.type: Easing.InOutCubic }
     }
 
-    Repeater {
-        model: 3
-        Item {
-            anchors.fill: parent
+    // Single canvas for all waves - reduces memory by 66%
+    Canvas {
+        id: allWaves
+        anchors.fill: parent
+        opacity: 1.0
+        renderStrategy: Canvas.Threaded
+        renderTarget: Canvas.FramebufferObject
+        antialiasing: true
 
+        property real time: 0
+        property int frameCount: 0
 
-            Canvas {
-                id: glassWave
-                anchors.fill: parent
-                opacity: 1.0
-                renderStrategy: Canvas.Threaded
-                renderTarget: Canvas.FramebufferObject
-                antialiasing: true
+        onPaint: {
+            var ctx = getContext("2d")
+            ctx.save()
+            ctx.clearRect(0, 0, width, height)
 
-                property real phase: index * Math.PI * 0.6
-                property real amplitude: 40 + (index * 10)
-                property real frequency: 0.0025 + (index * 0.0006)
-                property real speed: 0.016 + (index * 0.004)
-                property real verticalPos: parent.height * (0.35 + (index * 0.1))
+            // Draw all three waves in one paint cycle
+            for (var index = 0; index < 3; index++) {
+                var phase = (index * Math.PI * 0.6) + (time * (0.016 + index * 0.004))
+                var amplitude = 40 + (index * 10)
+                var frequency = 0.0025 + (index * 0.0006)
+                var verticalPos = height * (0.35 + (index * 0.1))
 
-                onPaint: {
-                    var ctx = getContext("2d")
-                    ctx.clearRect(0, 0, width, height)
+                var gradient = ctx.createLinearGradient(0, verticalPos - amplitude * 3, 0, verticalPos + amplitude * 3)
+                gradient.addColorStop(0, Qt.rgba(1, 1, 1, 0))
+                gradient.addColorStop(0.25, Qt.rgba(0.7, 0.75, 0.85, 0.05))
+                gradient.addColorStop(0.5, Qt.rgba(0.9, 0.92, 0.98, 0.15))
+                gradient.addColorStop(0.75, Qt.rgba(0.7, 0.75, 0.85, 0.05))
+                gradient.addColorStop(1, Qt.rgba(1, 1, 1, 0))
 
-                    var gradient = ctx.createLinearGradient(0, verticalPos - amplitude * 3, 0, verticalPos + amplitude * 3)
-                    gradient.addColorStop(0, Qt.rgba(1, 1, 1, 0))
-                    gradient.addColorStop(0.25, Qt.rgba(0.7, 0.75, 0.85, 0.05))
-                    gradient.addColorStop(0.5, Qt.rgba(0.9, 0.92, 0.98, 0.15))
-                    gradient.addColorStop(0.75, Qt.rgba(0.7, 0.75, 0.85, 0.05))
-                    gradient.addColorStop(1, Qt.rgba(1, 1, 1, 0))
+                ctx.fillStyle = gradient
+                ctx.beginPath()
 
-                    ctx.fillStyle = gradient
-                    ctx.beginPath()
+                var startY = verticalPos + Math.sin(phase) * amplitude
+                ctx.moveTo(0, startY)
 
-                    var startY = verticalPos + Math.sin(phase) * amplitude
-                    ctx.moveTo(0, startY)
-
-                    for (var x = 0; x <= width; x += 2) {
-                        var wave1 = Math.sin((x * frequency) + phase) * amplitude
-                        var wave2 = Math.sin((x * frequency * 1.3) + phase * 1.2) * (amplitude * 0.3)
-                        var y = verticalPos + wave1 + wave2
-                        ctx.lineTo(x, y)
-                    }
-
-                    ctx.lineTo(width, height)
-                    ctx.lineTo(0, height)
-                    ctx.closePath()
-                    ctx.fill()
-
-                    ctx.strokeStyle = Qt.rgba(1, 1, 1, 0.1)
-                    ctx.lineWidth = 1.2
-                    ctx.beginPath()
-                    ctx.moveTo(0, startY)
-                    for (x = 0; x <= width; x += 2) {
-                        wave1 = Math.sin((x * frequency) + phase) * amplitude
-                        wave2 = Math.sin((x * frequency * 1.3) + phase * 1.2) * (amplitude * 0.3)
-                        y = verticalPos + wave1 + wave2
-                        ctx.lineTo(x, y)
-                    }
-                    ctx.stroke()
+                for (var x = 0; x <= width; x += 2) {
+                    var wave1 = Math.sin((x * frequency) + phase) * amplitude
+                    var wave2 = Math.sin((x * frequency * 1.3) + phase * 1.2) * (amplitude * 0.3)
+                    var y = verticalPos + wave1 + wave2
+                    ctx.lineTo(x, y)
                 }
 
-                Timer {
-                    interval: 33
-                    running: true
-                    repeat: true
-                    onTriggered: {
-                        parent.phase += parent.speed
-                        parent.requestPaint()
-                    }
+                ctx.lineTo(width, height)
+                ctx.lineTo(0, height)
+                ctx.closePath()
+                ctx.fill()
+
+                ctx.strokeStyle = Qt.rgba(1, 1, 1, 0.1)
+                ctx.lineWidth = 1.2
+                ctx.beginPath()
+                ctx.moveTo(0, startY)
+                for (x = 0; x <= width; x += 2) {
+                    wave1 = Math.sin((x * frequency) + phase) * amplitude
+                    wave2 = Math.sin((x * frequency * 1.3) + phase * 1.2) * (amplitude * 0.3)
+                    y = verticalPos + wave1 + wave2
+                    ctx.lineTo(x, y)
+                }
+                ctx.stroke()
+            }
+
+            ctx.restore()
+        }
+
+        Timer {
+            interval: 33
+            running: true
+            repeat: true
+            onTriggered: {
+                parent.time += 2.0  // Faster wave movement
+                parent.frameCount++
+                parent.requestPaint()
+
+                // Force canvas cleanup every 10 minutes to prevent memory buildup
+                // Do it less frequently to avoid stuttering
+                if (parent.frameCount >= 18000) {  // ~10 minutes at 30fps
+                    parent.frameCount = 0
+                    Qt.callLater(gc)  // Call GC async to avoid frame drops
                 }
             }
         }
     }
 
     Repeater {
-        model: 50
-        Rectangle {
-            id: particle
-            width: 1.5 + Math.random() * 2.5
-            height: width
-            radius: width / 2
-            color: Qt.rgba(0.7, 0.75, 0.85, 0.25 + Math.random() * 0.5)
-            x: Math.random() * parent.width
-            y: Math.random() * parent.height
-            layer.enabled: true
-            layer.smooth: true
+            model: 25
+            Rectangle {
+                id: particle
+                width: 1.5 + Math.random() * 2.5
+                height: width
+                radius: width / 2
+                color: Qt.rgba(0.7, 0.75, 0.85, 0.25 + Math.random() * 0.5)
 
-            property real driftSpeed: 18 + Math.random() * 28
-            property real wobbleAmount: 15 + Math.random() * 25
+                property real initialX: Math.random() * parent.width
+                property real initialY: Math.random() * parent.height
+                property real driftSpeed: 18 + Math.random() * 28
+                property real wobbleAmount: 15 + Math.random() * 25
 
-            SequentialAnimation on y {
-                running: startupComplete
-                loops: Animation.Infinite
-                NumberAnimation {
-                    to: -30
-                    duration: driftSpeed * 1000
-                    easing.type: Easing.Linear
-                }
-                PropertyAction { value: parent.height + 30 }
-            }
+                x: initialX
+                y: initialY
 
-            SequentialAnimation on x {
-                running: startupComplete
-                loops: Animation.Infinite
-                NumberAnimation {
-                    to: particle.x + wobbleAmount
-                    duration: 4000 + Math.random() * 2500
-                    easing.type: Easing.InOutSine
-                }
-                NumberAnimation {
-                    to: particle.x
-                    duration: 4000 + Math.random() * 2500
-                    easing.type: Easing.InOutSine
-                }
-            }
+                layer.enabled: true
+                layer.smooth: true
 
-            SequentialAnimation on opacity {
-                running: startupComplete
-                loops: Animation.Infinite
-                NumberAnimation {
-                    to: 0.15
-                    duration: 1800 + Math.random() * 2200
-                    easing.type: Easing.InOutSine
+                SequentialAnimation on y {
+                    running: startupComplete
+                    loops: Animation.Infinite
+                    NumberAnimation {
+                        to: -30
+                        duration: particle.driftSpeed * 1000
+                        easing.type: Easing.Linear
+                    }
+                    PropertyAction { value: parent.height + 30 }
                 }
-                NumberAnimation {
-                    to: 0.75
-                    duration: 1800 + Math.random() * 2200
-                    easing.type: Easing.InOutSine
+
+                SequentialAnimation on x {
+                    running: startupComplete
+                    loops: Animation.Infinite
+                    NumberAnimation {
+                        to: particle.initialX + particle.wobbleAmount
+                        duration: 4000 + Math.random() * 2500
+                        easing.type: Easing.InOutSine
+                    }
+                    NumberAnimation {
+                        to: particle.initialX
+                        duration: 4000 + Math.random() * 2500
+                        easing.type: Easing.InOutSine
+                    }
+                }
+
+                SequentialAnimation on opacity {
+                    running: startupComplete
+                    loops: Animation.Infinite
+                    NumberAnimation {
+                        to: 0.4  // Brighter minimum opacity
+                        duration: 1800 + Math.random() * 2200
+                        easing.type: Easing.InOutSine
+                    }
+                    NumberAnimation {
+                        to: 1.0  // Full brightness maximum
+                        duration: 1800 + Math.random() * 2200
+                        easing.type: Easing.InOutSine
+                    }
                 }
             }
         }
-    }
 }

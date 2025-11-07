@@ -49,12 +49,13 @@ Rectangle {
 
                 property real phase: index * Math.PI * 0.4
                 property real amplitude: 60 + index * 10
-                property real frequency: 0.004
+                property real frequency: 0.004 + (index * 0.0008)  // Different frequencies for separation
                 property real yPosition: parent.height * 0.5
                 property real animProgress: 0
 
                 onPaint: {
                     var ctx = getContext("2d")
+                    ctx.save()
                     ctx.clearRect(0, 0, width, height)
 
                     var gradient = ctx.createLinearGradient(0, yPosition - amplitude * 2.5, 0, yPosition + amplitude * 2.5)
@@ -70,7 +71,8 @@ Rectangle {
                     ctx.beginPath()
                     ctx.moveTo(0, height)
 
-                    for (var x = 0; x <= width; x += 6) {
+                    // Reduced step size from 6 to 3 for smoother curves
+                    for (var x = 0; x <= width; x += 3) {
                         var wave = Math.sin((x * frequency) + phase) * amplitude * animProgress
                         var y = yPosition + wave
                         if (x === 0) {
@@ -88,7 +90,8 @@ Rectangle {
                     ctx.strokeStyle = Qt.rgba(1, 1, 1, 0.15 * animProgress)
                     ctx.lineWidth = 2
                     ctx.beginPath()
-                    for (x = 0; x <= width; x += 8) {
+                    // Reduced step size from 8 to 3 for smoother stroke
+                    for (x = 0; x <= width; x += 3) {
                         wave = Math.sin((x * frequency) + phase) * amplitude * animProgress
                         y = yPosition + wave
                         if (x === 0) {
@@ -98,6 +101,7 @@ Rectangle {
                         }
                     }
                     ctx.stroke()
+                    ctx.restore()
                 }
 
                 SequentialAnimation on animProgress {

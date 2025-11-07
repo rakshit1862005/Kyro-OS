@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 331,
+                        "durationMicroseconds": 270,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 8
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 164,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 11
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 46,
-                        "durationMicroseconds": 260,
+                        "durationMicroseconds": 143,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 12
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 46,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 68,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 13
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 46,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 73,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 14
@@ -46,314 +46,282 @@
                     {
                         "codegenSuccessful": true,
                         "column": 57,
-                        "durationMicroseconds": 157,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 18
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 102,
+                        "column": 25,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "renderStrategy",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "renderTarget",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 13505,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 114,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 24
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 33,
-                        "durationMicroseconds": 173,
-                        "errorMessage": "",
-                        "functionName": "renderStrategy",
-                        "line": 31
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 131,
-                        "errorMessage": "",
-                        "functionName": "renderTarget",
-                        "line": 32
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 38,
-                        "durationMicroseconds": 423,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "phase",
-                        "line": 35
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 42,
-                        "durationMicroseconds": 295,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "amplitude",
-                        "line": 36
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 42,
-                        "durationMicroseconds": 296,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "frequency",
-                        "line": 37
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 38,
-                        "durationMicroseconds": 257,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "speed",
-                        "line": 38
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 44,
-                        "durationMicroseconds": 323,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "verticalPos",
-                        "line": 39
-                    },
-                    {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 18619,
-                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
-                        "functionName": "onPaint",
-                        "line": 41
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 114,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 29
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 34,
-                        "durationMicroseconds": 171,
-                        "errorMessage": "Cannot load property phase from (component in A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml)::parent with type QObject.",
+                        "durationMicroseconds": 260,
+                        "errorMessage": "Cannot load property time from (component in A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml)::parent with type QObject.",
                         "functionName": "onTriggered",
-                        "line": 87
+                        "line": 90
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 322,
+                        "column": 24,
+                        "durationMicroseconds": 250,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 100
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 89,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 101
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 185,
-                        "errorMessage": "",
-                        "functionName": "radius",
-                        "line": 102
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 20,
-                        "durationMicroseconds": 587,
-                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
-                        "functionName": "color",
-                        "line": 103
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 294,
-                        "errorMessage": "",
-                        "functionName": "x",
-                        "line": 104
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 257,
-                        "errorMessage": "",
-                        "functionName": "y",
-                        "line": 105
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 323,
-                        "errorMessage": "",
-                        "functionName": "driftSpeed",
                         "line": 109
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 41,
-                        "durationMicroseconds": 323,
+                        "column": 25,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
-                        "functionName": "wobbleAmount",
+                        "functionName": "height",
                         "line": 110
                     },
                     {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 111
+                    },
+                    {
                         "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 143,
-                        "errorMessage": "Cannot access value for name startupComplete",
-                        "functionName": "running",
-                        "line": 113
+                        "column": 24,
+                        "durationMicroseconds": 445,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 112
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 172,
+                        "column": 41,
+                        "durationMicroseconds": 220,
                         "errorMessage": "",
-                        "functionName": "loops",
+                        "functionName": "initialX",
                         "line": 114
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 31,
-                        "durationMicroseconds": 58,
-                        "errorMessage": "Cannot access value for name driftSpeed",
-                        "functionName": "duration",
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "",
+                        "functionName": "initialY",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "",
+                        "functionName": "driftSpeed",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 223,
+                        "errorMessage": "",
+                        "functionName": "wobbleAmount",
                         "line": 117
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 128,
+                        "column": 20,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
-                        "functionName": "type",
-                        "line": 118
+                        "functionName": "x",
+                        "line": 119
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 41,
-                        "durationMicroseconds": 66,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "value",
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "y",
                         "line": 120
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 133,
+                        "column": 30,
+                        "durationMicroseconds": 110,
                         "errorMessage": "Cannot access value for name startupComplete",
                         "functionName": "running",
-                        "line": 124
+                        "line": 126
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 109,
+                        "column": 28,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "loops",
-                        "line": 125
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 25,
-                        "durationMicroseconds": 70,
-                        "errorMessage": "Cannot access value for name wobbleAmount",
-                        "functionName": "to",
                         "line": 127
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 326,
+                        "column": 35,
+                        "durationMicroseconds": 168,
                         "errorMessage": "",
                         "functionName": "duration",
-                        "line": 128
+                        "line": 130
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 110,
+                        "column": 38,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 129
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 25,
-                        "durationMicroseconds": 158,
-                        "errorMessage": "",
-                        "functionName": "to",
-                        "line": 132
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 294,
-                        "errorMessage": "",
-                        "functionName": "duration",
-                        "line": 133
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 116,
-                        "errorMessage": "",
-                        "functionName": "type",
-                        "line": 134
+                        "line": 131
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 120,
+                        "column": 45,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "value",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 204,
                         "errorMessage": "Cannot access value for name startupComplete",
                         "functionName": "running",
-                        "line": 139
+                        "line": 137
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 121,
+                        "column": 28,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "loops",
+                        "line": 138
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "to",
                         "line": 140
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 423,
+                        "column": 35,
+                        "durationMicroseconds": 168,
                         "errorMessage": "",
                         "functionName": "duration",
-                        "line": 143
+                        "line": 141
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 286,
+                        "column": 38,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 144
+                        "line": 142
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 371,
+                        "column": 29,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 164,
                         "errorMessage": "",
                         "functionName": "duration",
-                        "line": 148
+                        "line": 146
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 119,
+                        "column": 38,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 149
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "running",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 162
                     }
                 ],
                 "filePath": "A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml"

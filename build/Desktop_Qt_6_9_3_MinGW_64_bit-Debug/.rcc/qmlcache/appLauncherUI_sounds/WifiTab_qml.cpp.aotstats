@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 12,
-                        "durationMicroseconds": 313,
+                        "durationMicroseconds": 508,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 14,
-                        "durationMicroseconds": 143,
+                        "durationMicroseconds": 297,
                         "errorMessage": "Cannot access value for name activePanel",
                         "functionName": "visible",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "focus",
                         "line": 18
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "onVisibleChanged",
                         "line": 45
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 8
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 9
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 10
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 818,
+                        "durationMicroseconds": 2120,
                         "errorMessage": "Cannot access value for name event",
                         "functionName": "onPressed",
                         "line": 20
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 52
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 325,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
                         "line": 72
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 8,
+                        "durationMicroseconds": 19,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "text",
                         "line": 76
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 42,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 301,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
                         "line": 78
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 40,
-                        "durationMicroseconds": 122,
+                        "durationMicroseconds": 256,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
                         "line": 79
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 240,
+                        "durationMicroseconds": 545,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 88
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 337,
+                        "durationMicroseconds": 743,
                         "errorMessage": "Cannot access value for name wifiNetworks",
                         "functionName": "model",
                         "line": 98
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 197,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 105
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 140,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "color",
                         "line": 108
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 222,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 117
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 300,
+                        "durationMicroseconds": 746,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 118
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 71,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 121
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 146,
+                        "durationMicroseconds": 332,
                         "errorMessage": "Cannot access value for name wifiListView",
                         "functionName": "onEntered",
                         "line": 139
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 302,
+                        "durationMicroseconds": 830,
                         "errorMessage": "Cannot access value for name wifiListView",
                         "functionName": "onClicked",
                         "line": 142
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 137
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 151
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 187,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "color",
                         "line": 158
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 47,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 166
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 44,
-                        "durationMicroseconds": 18,
+                        "durationMicroseconds": 42,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "bold",
                         "line": 169
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 43,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 54,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 176
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 44,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 380,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 178
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 46,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 59,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "visible",
                         "line": 182
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 463,
+                        "durationMicroseconds": 995,
                         "errorMessage": "Cannot access value for name accentColors",
                         "functionName": "color",
                         "line": 195
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 336,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 206
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 207

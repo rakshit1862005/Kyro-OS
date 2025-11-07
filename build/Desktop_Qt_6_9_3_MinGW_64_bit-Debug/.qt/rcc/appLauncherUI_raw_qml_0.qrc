@@ -8,6 +8,9 @@
     <file alias="sounds/Customize.qml">A:/KyroOS/LauncherUI/sounds/Customize.qml</file>
     <file alias="sounds/Wifidetail.qml">A:/KyroOS/LauncherUI/sounds/Wifidetail.qml</file>
     <file alias="resource.qrc">A:/KyroOS/LauncherUI/resource.qrc</file>
+    <file alias="images/main1.png">A:/KyroOS/LauncherUI/images/main1.png</file>
+    <file alias="images/main2.png">A:/KyroOS/LauncherUI/images/main2.png</file>
+    <file alias="images/main3.png">A:/KyroOS/LauncherUI/images/main3.png</file>
   </qresource>
 </RCC>
 
