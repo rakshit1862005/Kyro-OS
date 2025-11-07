@@ -30,6 +30,7 @@ qt_add_qml_module(appLauncherUI
         SOURCES
         SOURCES
         QML_FILES sounds/Wifidetail.qml
+        RESOURCES images/main1.png images/main2.png images/main3.png
 )
 
 qt_add_resources(appLauncherUI "resource"

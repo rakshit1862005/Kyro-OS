@@ -16,6 +16,7 @@ Window {
     color: "black"
     visibility: Window.FullScreen
 
+
     // Track which GridView has focus (0 = main, 1 = secondary, 2 = bottom)
     property int focusedGrid: 0
     property bool startupComplete: false
@@ -217,20 +218,16 @@ Window {
             Layout.preferredHeight: 380
             cellWidth: 550
             cellHeight: 380
-            model: 2
+            model: 3
             interactive: false
             clip: false
 
             delegate: Rectangle {
                 width: 530
                 height: 350
-                radius: 20
                 color: (focusedGrid === 0 && mainTiles.currentIndex === index) ? Qt.rgba(0, 0.75, 1, 0.5) : Qt.rgba(0.2, 0.4, 0.7, 0.4)
                 border.width: focusedGrid === 0 && mainTiles.currentIndex === index ? 3 : 1
                 border.color: focusedGrid === 0 && mainTiles.currentIndex === index ? Qt.rgba(1, 1, 1, 0.9) : Qt.rgba(1, 1, 1, 0.3)
-
-                layer.enabled: true
-                layer.smooth: true
 
                 scale: (focusedGrid === 0 && mainTiles.currentIndex === index) ? 1.05 : 1.0
                 Behavior on scale {
@@ -252,12 +249,12 @@ Window {
                     }
                 }
 
-                Text {
-                    anchors.centerIn: parent
-                    text: "Main Tile " + (index + 1)
-                    font.pixelSize: 24
-                    color: "white"
-                    font.bold: false
+                Image {
+                    anchors.fill: parent
+                    source: "images/main" + (index + 1) + ".png"
+                    fillMode: Image.PreserveAspectCrop
+                    smooth: true
+                    antialiasing: true
                 }
             }
         }
@@ -269,7 +266,7 @@ Window {
             Layout.preferredHeight: 220
             cellWidth: 360
             cellHeight: 220
-            model: 4
+            model: 5
             interactive: false
             clip: false
 
