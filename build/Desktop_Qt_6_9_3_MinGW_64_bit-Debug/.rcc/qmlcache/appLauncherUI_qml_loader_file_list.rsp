@@ -1,0 +1,15 @@
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qmake_LauncherUI.qrc
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0.qrc
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/appLauncherUI_raw_qml_0_extra_qmldirs.qrc
+--resource
+A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/resource.qrc
+/qt/qml/LauncherUI/Main.qml
+/qt/qml/LauncherUI/sounds/StartupOverlay.qml
+/qt/qml/LauncherUI/sounds/StartupAnim.qml
+/qt/qml/LauncherUI/sounds/BackgroundAnim.qml
+/qt/qml/LauncherUI/sounds/WifiTab.qml
+/qt/qml/LauncherUI/sounds/Customize.qml
+/qt/qml/LauncherUI/sounds/Wifidetail.qml

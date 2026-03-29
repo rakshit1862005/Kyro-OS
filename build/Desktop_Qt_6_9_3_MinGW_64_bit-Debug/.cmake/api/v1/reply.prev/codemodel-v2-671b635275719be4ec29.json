@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7c1875c95934184e952e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LauncherUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-1ae7bb89013b49c8ba73.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2c115e2e159532e04fe2.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-d0f071fba8a37da7eba7.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-f40404fdc7da4c5386ae.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-ea70224faffa8512ec42.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI-Debug-86f3f580fa6a1cb77332.json",
+					"name" : "appLauncherUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_autogen-Debug-2b35914c63d76dc7b149.json",
+					"name" : "appLauncherUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_autogen_timestamp_deps-Debug-f51c4ba148c8f839275f.json",
+					"name" : "appLauncherUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_copy_qml-Debug-77735228306112454c8f.json",
+					"name" : "appLauncherUI_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_copy_res-Debug-228bcb444b674697ce38.json",
+					"name" : "appLauncherUI_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_qmlimportscan-Debug-adf82436a772b4df43bf.json",
+					"name" : "appLauncherUI_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_qmllint-Debug-6898dcf9e8999b065ea3.json",
+					"name" : "appLauncherUI_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_qmllint_json-Debug-df887c84caeb86796c2d.json",
+					"name" : "appLauncherUI_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_qmllint_module-Debug-964708da3f54bc06e1ef.json",
+					"name" : "appLauncherUI_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLauncherUI_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLauncherUI_qmltyperegistration-Debug-600a7b2db4e55ae93f61.json",
+					"name" : "appLauncherUI_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appLauncherUI_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appLauncherUI_aotstats_target-Debug-261819fafcc118a27b0b.json",
+					"name" : "module_appLauncherUI_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "A:/KyroOS/LauncherUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+		"source" : "A:/KyroOS/LauncherUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/sounds">
+    <file alias="sounds/pulse.wav">A:/KyroOS/LauncherUI/sounds/pulse.wav</file>
+  </qresource>
+</RCC>
+

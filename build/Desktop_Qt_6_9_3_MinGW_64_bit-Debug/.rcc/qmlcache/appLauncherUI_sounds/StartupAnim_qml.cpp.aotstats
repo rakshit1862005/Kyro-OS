@@ -1,0 +1,292 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 14,
+                        "durationMicroseconds": 307,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "visible",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "textFormat",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 111,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 141,
+                        "durationMicroseconds": 192,
+                        "errorMessage": "Cannot find name startupComplete",
+                        "functionName": "onFinished",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 111,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "",
+                        "functionName": "renderStrategy",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "renderTarget",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 223,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "phase",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 150,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "amplitude",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "frequency",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 148,
+                        "errorMessage": "",
+                        "functionName": "yPosition",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 9935,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 106,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "duration",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 48,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "duration",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "running",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "Cannot load property phase from (component in A:/KyroOS/LauncherUI/sounds/StartupAnim.qml)::parent with type QObject.",
+                        "functionName": "onTriggered",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "textFormat",
+                        "line": 151
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "scale",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 162
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "",
+                        "functionName": "onFinished",
+                        "line": 185
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 183
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 194
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "Cannot find name startupComplete",
+                        "functionName": "onFinished",
+                        "line": 199
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 198
+                    }
+                ],
+                "filePath": "A:/KyroOS/LauncherUI/sounds/StartupAnim.qml"
+            }
+        ],
+        "moduleId": "LauncherUI(appLauncherUI)"
+    }
+]

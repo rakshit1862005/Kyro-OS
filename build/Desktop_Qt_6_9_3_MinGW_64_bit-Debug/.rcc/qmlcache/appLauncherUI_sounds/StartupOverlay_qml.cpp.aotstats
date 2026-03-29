@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 292,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 10
+                    }
+                ],
+                "filePath": "A:/KyroOS/LauncherUI/sounds/StartupOverlay.qml"
+            }
+        ],
+        "moduleId": "LauncherUI(appLauncherUI)"
+    }
+]

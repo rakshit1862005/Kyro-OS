@@ -1,0 +1,572 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 2335,
+                        "errorMessage": "",
+                        "functionName": "visibility",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 4409,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "accentColors",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 148,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "selectedwifi",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "",
+                        "functionName": "selectedThemeIndex",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 479,
+                        "errorMessage": "",
+                        "functionName": "updateFocus",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot access value for name activePanel",
+                        "functionName": "focus",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 1370,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onPressed",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "opacity",
+                        "line": 151
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "Cannot access value for name accentColors",
+                        "functionName": "text",
+                        "line": 163
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "textFormat",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 198,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 187
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 186
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 171,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 196
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "Cannot access value for name accentColors",
+                        "functionName": "color",
+                        "line": 197
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 195
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 440,
+                        "errorMessage": "",
+                        "functionName": "onTriggered",
+                        "line": 205
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 228
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "scale",
+                        "line": 232
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "width",
+                        "line": 229
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 230
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 236
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 207,
+                        "errorMessage": "Cannot access value for name mainTiles",
+                        "functionName": "onClicked",
+                        "line": 245
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 244
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "source",
+                        "line": 254
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 255
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 253
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 277
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "scale",
+                        "line": 284
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "width",
+                        "line": 278
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 279
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 288
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 170,
+                        "errorMessage": "Cannot access value for name secondaryTiles",
+                        "functionName": "onClicked",
+                        "line": 297
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 296
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 194,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "text",
+                        "line": 306
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 305
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 398,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 323
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "flow",
+                        "line": 329
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 321
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 322
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 336
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "scale",
+                        "line": 343
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "width",
+                        "line": 337
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 338
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 347
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 459,
+                        "errorMessage": "Cannot access value for name bottomTile",
+                        "functionName": "onClicked",
+                        "line": 356
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 355
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 370
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 309,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 378
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 374
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 460,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "text",
+                        "line": 384
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 383
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 49,
+                        "durationMicroseconds": 527,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "pixelSize",
+                        "line": 385
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 466,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "text",
+                        "line": 393
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 227,
+                        "errorMessage": "Cannot access value for name focusedGrid",
+                        "functionName": "color",
+                        "line": 395
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 392
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name activePanel",
+                        "functionName": "visible",
+                        "line": 407
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "focus",
+                        "line": 408
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "",
+                        "functionName": "onVisibleChanged",
+                        "line": 417
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onPressed",
+                        "line": 410
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name activePanel",
+                        "functionName": "visible",
+                        "line": 432
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "focus",
+                        "line": 433
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "onVisibleChanged",
+                        "line": 442
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onPressed",
+                        "line": 435
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name activePanel",
+                        "functionName": "visible",
+                        "line": 459
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "focus",
+                        "line": 460
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "onVisibleChanged",
+                        "line": 469
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onPressed",
+                        "line": 462
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 483
+                    }
+                ],
+                "filePath": "A:/KyroOS/LauncherUI/Main.qml"
+            }
+        ],
+        "moduleId": "LauncherUI(appLauncherUI)"
+    }
+]

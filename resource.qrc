@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icon"/>
+    <qresource prefix="/">
+        <file>images/launcher_wp.jpg</file>
+        <file>pulse.wav</file>
+        <file>StartupOverlay.qml</file>
+        <file>StartupAnim.qml</file>
+        <file>BackgroundAnim.qml</file>
+        <file>sounds/Customize.qml</file>
+        <file>sounds/WifiTab.qml</file>
+        <file>Wifidetail.qml</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/sounds">
+        <file>pulse.wav</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>

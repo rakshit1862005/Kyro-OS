@@ -1,0 +1,332 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 270,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "orientation",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "Cannot access value for name accentColors",
+                        "functionName": "color",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot access value for name accentColors",
+                        "functionName": "color",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "Cannot access value for name accentColors",
+                        "functionName": "color",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 57,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "renderStrategy",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "renderTarget",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 13505,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 260,
+                        "errorMessage": "Cannot load property time from (component in A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml)::parent with type QObject.",
+                        "functionName": "onTriggered",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 250,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 445,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 112
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 220,
+                        "errorMessage": "",
+                        "functionName": "initialX",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "",
+                        "functionName": "initialY",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "",
+                        "functionName": "driftSpeed",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 223,
+                        "errorMessage": "",
+                        "functionName": "wobbleAmount",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "running",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 106,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 45,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "value",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "running",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 138
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Cannot access value for name startupComplete",
+                        "functionName": "running",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 204,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 162
+                    }
+                ],
+                "filePath": "A:/KyroOS/LauncherUI/sounds/BackgroundAnim.qml"
+            }
+        ],
+        "moduleId": "LauncherUI(appLauncherUI)"
+    }
+]

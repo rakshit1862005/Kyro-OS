@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "WifiScanner",
+            "lineNumber": 6,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "scanWifi",
+                    "returnType": "QStringList"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "WifiScanner",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Wifiscanner.h",
+    "outputRevision": 69
+}
